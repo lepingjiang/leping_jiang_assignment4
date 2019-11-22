@@ -1,0 +1,207 @@
+/*preset*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/*columns*/
+.fullcontainer {
+	display: flex;
+}
+
+.container {
+	max-width: 950px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.rfullcontainer {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.sper{
+	border-bottom: 1px solid #c7d8d8;
+}
+
+.rcontainer {
+	max-width: 950px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.c100 {
+	width: 100%;
+}
+
+.c75 {
+	width: 75%;
+}
+
+.c66 {
+	width: 66.666667%;
+}
+
+.c50 {
+	width: 50%;
+}
+
+.c33 {
+	width: 33.333333%;
+}
+
+.c25 {
+	width: 25%;
+}
+
+/*nav*/
+header {
+	border-bottom: 1px solid #c7d8d8;
+	position: relative;
+	background: #d9e8e8;
+}
+
+header h1 {
+	margin: 0;
+}
+
+#logo {
+	/*font-family: palatino;
+	font-weight: normal;
+	text-decoration: none;
+	color: #aaa;*/
+	padding-top: 8px;
+	padding-left: 10px;
+	display: inline-block;
+	width: 200px;
+}
+
+/*#logo:hover {
+	color: black;
+}*/
+
+#mb {
+	display: none;
+}
+
+nav {
+	position: absolute;
+	top: 12px;
+	right: 0;
+
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid #31869e;
+	color: #31869e;
+	padding: 5px 15px;
+	border-radius: 3px;
+}
+
+nav a:hover {
+	border: 1px solid #004242;
+	color: #004242;
+	background: #efefef;
+}
+
+/*common*/
+img {
+	width: 100%;
+
+}
+
+.tc {
+	text-align: center;
+}
+
+.btn {
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid #00f;
+	color: #00f;
+	padding: 5px 15px;
+	border-radius: 3px;
+	background: #fff;
+}
+
+header ul li a img {
+	height: 12px;
+	width: 40px;
+}
+
+.btn:hover {
+	border: 1px solid #000;
+	color: #000;
+	border-radius: 3px;
+
+}
+
+.a1 {
+	background: #c5f8ff;
+}
+
+.a2 {
+	background: #d9e8e8;
+}
+
+.p5 {
+	padding: 5px 0px;
+}
+
+.p10 {
+	padding: 10px;
+}
+
+.p30 {
+	padding: 30px;
+}
+
+.p50 {
+	padding: 50px;
+}
+
+.p100 {
+	padding: 100px 0px;
+}
+
+/*type*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Arial;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 40px;
+	margin: 20px 0;
+}
+
+footer p {
+	font-size: 10px;
+}
+
+.pagetitle{
+	width: 120px;
+}
+
+/*.formcontact lable input, .formcontact lable textarea{
+	width: 80%
+}*/

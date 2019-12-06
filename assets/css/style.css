@@ -23,7 +23,7 @@
 	flex-direction: row-reverse;
 }
 
-.sper{
+.sper {
 	border-bottom: 1px solid #c7d8d8;
 }
 
@@ -136,6 +136,7 @@ img {
 	padding: 5px 15px;
 	border-radius: 3px;
 	background: #fff;
+	margin-top: 5px;
 }
 
 header ul li a img {
@@ -156,6 +157,7 @@ header ul li a img {
 
 .a2 {
 	background: #d9e8e8;
+	min-height: 140px;
 }
 
 .p5 {
@@ -198,10 +200,72 @@ footer p {
 	font-size: 10px;
 }
 
-.pagetitle{
+.pagetitle {
 	width: 120px;
 }
 
-/*.formcontact lable input, .formcontact lable textarea{
-	width: 80%
-}*/
+
+@media screen and (max-width:700px) {
+
+	.container,
+	.rcontainer,
+	.fullcontainer,
+	.rfullcontainer {
+		display: block;
+	}
+
+	.c100,
+	.c75,
+	.c66,
+	.c50,
+	.c33,
+	.c25 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:500px) {
+	nav {
+		position: relative;
+		background: #ddd;
+		padding: 5px;
+		right: 0px;
+	}
+
+	nav li {
+		display: block;
+		border-bottom: 1px solid #fff;
+	}
+
+	nav a {
+		width: 100%;
+		border: none;
+	}
+
+	nav a:hover {
+		width: 100%;
+		border: none;
+		background: white;
+	}
+
+	#mb {
+		display: block;
+		position: absolute;
+		top: 15px;
+		right: 20px;
+		color: #f00;
+		padding: 7px;
+		border: 1px solid #f00;
+		background: #d9e8e8;
+		font-size: 18px;
+	}
+
+	#logo {
+		width: 150px;
+	}
+
+	.container,
+	.rcontainer {
+		padding: 0px 15px;
+	}
+}

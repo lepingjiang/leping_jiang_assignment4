@@ -4,6 +4,7 @@
 <head>
 	<title>Leping Jiang</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
@@ -43,13 +44,16 @@
 			border: 1px solid #ddd;
 		}
 
+		.proof {
+			min-height: 140px;
+		}
 	</style>
 </head>
 
 <body>
 	<header>
 		<h1><a href="index.html" id="logo"><img src="assets/img/leping_jiang_logo.png"></a></h1>
-		<button id="mb">mobile menu</button>
+		<button id="mb"><i class="fa fa-bars"></i></button>
 		<nav>
 			<ul>
 				<li>
@@ -77,7 +81,7 @@
 		</div>
 	</div>
 
-	<div class="container p100 tc" style="padding-bottom: 0px;">
+	<div class="container p100 tc" style="padding-bottom: 0px;padding-left: 15px; padding-right: 15px">
 		<div>
 			<h2>My Promise</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea repellendus fugiat sit voluptatibus, illo error numquam sapiente explicabo nesciunt recusandae eius quam ullam, impedit nostrum porro unde nemo tempora consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora at, id voluptatum molestias, voluptatibus voluptates doloribus nemo vero hic cumque. Iste nam provident ea amet minima corporis ducimus assumenda harum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat culpa mollitia sed fugit tempora, iure delectus id eaque blanditiis repellendus ipsum ratione, ex, quidem dignissimos voluptatum quia amet laboriosam commodi?</p>
@@ -85,19 +89,19 @@
 	</div>
 	<div class="container p100 tc" style="padding-top: 50px">
 		<div class="p10 c33">
-			<div class="a2 p10">
+			<div class="a2 p10 proof">
 				<h3>Logo Design</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, dolorem, incidunt. Cum explicabo exercitationem magni, minima iusto.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, dolorem, incidunt.</p>
 			</div>
 		</div>
 		<div class="p10 c33">
-			<div class="a2 p10">
+			<div class="a2 p10 proof">
 				<h3>Poster Design</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, dolorem, incidunt. Cum explicabo exercitationem magni, minima iusto.</p>
 			</div>
 		</div>
 		<div class="p10 c33">
-			<div class="a2 p10">
+			<div class="a2 p10 proof">
 				<h3>Web Design</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, dolorem, incidunt. Cum explicabo exercitationem magni, minima iusto.</p>
 			</div>
@@ -118,7 +122,25 @@
 	<footer>
 		<p class="tc a1 p5">&copy; 2019 All Right Reserved.</p>
 	</footer>
-
-</body>
-
-</html>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		
+		$('#mb').click(function(){
+			$('nav').slideToggle();
+		});
+		
+		$(window).resize(function(){
+			if(window.innerWidth> 499){
+				$('nav').show();
+			}
+		});
+		
+		
+		
+		
+		
+		
+		
+		
+	</script>
+</body></html>
